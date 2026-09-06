@@ -1,0 +1,8 @@
+div{
+    height: 200px;
+    width: 400px;
+    background-color: greenyellow;
+    margin: 10px auto;
+    background-image: url("a_sinery.jpg");
+    background-size: 100% 100%;
+}

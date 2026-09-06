@@ -1,0 +1,13 @@
+console.log("this is a simple log");
+console.error("this is an error msg");
+alert("something is wrong!");
+console.warn("this is a warning msg");
+let firstName = prompt("enter your firstname : ");
+console.log(firstName);
+let lastName = prompt("enter your lastname : ");
+console.log(lastName);
+let roll = prompt("enter your roll no : ");
+console.log(roll);
+console.log("Welcome",firstName,lastName,"!");
+let msg = "Welcome "+firstName+" "+lastName+"!";
+alert(msg);

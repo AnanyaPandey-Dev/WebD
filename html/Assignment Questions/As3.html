@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <form action="/action">
+        <tag for="Name">Name</tag>
+        <input Name="Name" id="Name">
+        <br>
+        <br>
+        Sex:
+        <input type="radio" name="Sex" id="Male" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Sex" id="Female" value="Female">
+        <label for="Female">Female</label>
+        <br>
+        <br>
+        <label for="con">Country</label>
+        <select name="con" id="con">
+            <option>Select an option</option>
+            <option >India</option>
+            <option >USA</option>
+            <option >China</option>
+        </select>
+        <br>
+        <br>
+        <label for="mess">Message:</label>
+        <br>
+        <textarea id="mess" name="message" rows="3"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" id="sub" name="sub">
+        <label for="sub">Subscribe?</label>
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

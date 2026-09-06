@@ -1,0 +1,50 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid lightseagreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    /* align-content: space-evenly; */
+    align-content: stretch;
+    border-radius: 10px;
+
+}
+#container .box{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: grey;    
+    border-radius: 10px;
+}
+#one{
+    order: 9;
+}
+#two{
+    order: 8;
+}
+#three{
+    order: 7;
+}
+#four{
+    order: 6;
+}
+#five{
+    order: 4;
+}
+#six{
+    order: 4;
+}
+#seven{
+    order: 3;
+}
+#eight{
+    order: 2;
+}
+#nine{
+    order: 1;
+}

@@ -1,0 +1,36 @@
+#container{
+    height: 400px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction:row; */
+    flex-direction:row;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-content:stretch; */
+}
+#red{
+    /* align-self: center; */
+    /* flex-basis: auto; */
+    flex:100px;
+}
+#orange{
+    /* flex-basis: auto; */
+    flex:1 2 100px;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px; 
+    /* width: 100px; */
+    color: white;
+    text-align: center;
+    /* font-size: 1.5em; */
+}

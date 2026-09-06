@@ -1,0 +1,33 @@
+#outer{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.eye{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+#_1{
+    position: absolute;
+    top:55px;
+    left: 50px;
+}
+#_2{
+    position: absolute;
+    top:55px;
+    left: 135px;
+}
+#_3{
+    position: absolute;
+    height: 50px;
+    width: 125px;
+    background-color: rgb(155, 19, 19);
+    top:125px;
+    left: 48px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

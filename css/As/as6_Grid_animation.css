@@ -1,0 +1,88 @@
+/* part One answer */
+
+.container{
+    display: grid;
+    height: 400px;
+    width: 700px;
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+.header{
+    grid-column: 1/span 12;
+    background-color: pink;
+}
+.sidebar{
+    grid-column: 1/span 3;
+    grid-row: 2/span 10;
+    background-color: pink;
+}
+.navigation{
+    grid-column: 4/span 6;
+    background-color: pink;
+}
+.ads{
+    grid-column: 10/span 3;
+    grid-row: 2/span 10;
+    background-color: pink;
+}
+.main{
+    grid-column: 4/span 6;
+    grid-row: 3/span 9;
+    background-color: pink;
+}
+.footer{
+    grid-column: 1/span 12;
+    background-color: pink;
+}
+
+/* part Two answer */
+
+@media(max-width:720px){
+.sidebar{
+    grid-column: 1/span 3;
+    grid-row: 3/span 9;
+    background-color: pink;
+}
+.navigation{
+    grid-column: 1/span 12;
+    grid-row: 2/span 1;
+    background-color: pink;
+}
+.ads{
+    grid-column: 1/span 3;
+    grid-row: 12/span 1;
+    background-color: pink;
+}
+.main{
+    grid-column: 4/span 9;
+    grid-row: 3/span 9;
+    background-color: pink;
+}
+.footer{
+    grid-column: 4/span 9;
+    grid-row: 12/span 1;
+    background-color: pink;
+}
+}
+
+
+
+.loader {
+border: 16px solid #f3f3f3;
+border-top: 16px solid goldenrod;
+border-radius: 50%;
+width: 120px;
+height: 120px;
+animation: spin 2s linear infinite;
+}
+@keyframes spin {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+}
+
